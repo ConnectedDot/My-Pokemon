@@ -1,0 +1,109 @@
+.hero {
+    width: 100%;
+    height: 35rem;
+    background: url('../../assets/pokemon-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+
+.header {
+    width: 100%;
+    height: 20rem;
+    background: linear-gradient(0deg, rgba(81, 168, 177, 0.8), rgba(81, 168, 177, 0.8)), url('../../assets/pokemon-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    color: white;
+}
+
+.header h1 {
+    font-size: 3rem;
+}
+
+
+
+
+
+/* phone-only */
+@media (max-width: 599px) {
+
+    .hero {
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+
+    .header {
+        padding: 1rem;
+    }
+}
+
+/* .tablet-portrait-up  */
+@media (min-width: 600px) {
+    .hero {
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+
+    .header {
+        padding: 1rem;
+    }
+}
+
+/* tablet-portait-only */
+@media (min-width: 600px) and (max-width: 899px) {
+    .hero {
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+
+    .header {
+        padding: 1rem;
+    }
+}
+
+/* tablet-landscape-up */
+@media (min-width: 900px) {
+    .hero {
+        padding: 1rem;
+        padding-top: 5rem;
+    }
+
+    .header {
+        padding: 1rem;
+    }
+}
+
+/* tablet-landscape-only */
+@media (min-width: 900px) and (max-width: 1199px) {
+    .hero {
+        padding: 5rem;
+
+    }
+
+    .header {
+        padding: 5rem;
+    }
+}
+
+/* desktop-only */
+@media (min-width: 1300px) and (max-width: 1799px) {
+    .hero {
+        padding: 5rem;
+    }
+
+    .header {
+        padding: 5rem;
+    }
+}
+
+/* big-desktop-up */
+@media (min-width: 1800px) {
+    .hero {
+        padding: 5rem;
+    }
+
+    .header {
+        padding: 5rem;
+    }
+}
